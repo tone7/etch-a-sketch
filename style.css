@@ -3,6 +3,10 @@
     --grid-rows: 1;
   }
   
+@font-face {
+    font-family: 'Sketchy';
+    src: url(fonts/Sketchy-1jX4.ttf);
+}  
 #container {
     margin: auto;
     width: 80vh;
@@ -20,26 +24,58 @@
     display: block;
 }
 
-.orange-color{
-    background-color: orange;
+.standard-color{
+    background-color: black;
 }
 
 .toolbar{
-    margin-top: 2em;
+    margin-top: 1.5em;
     display: flex;
     justify-content: center;
 }
 
 .flex-item{
+    height: 3em;
     padding: 10px;
     margin-left: 1em;
+    border-style: dashed;
+    border-color: black;
+    font-family: Sketchy;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.flex-item:hover{
+    background-color: aquamarine;
+    border-radius: 50px;
+    box-shadow:2px 2px black;
+    transform: scale(1.2);
 }
 
 #select{
     width: 3em;
-    height: auto;
+}
+
+#selectText:hover{
+    box-shadow: none;
+    transform: none;
 }
 
 #header{
+    margin: auto;
+    margin-bottom: 1em;
+    width: 80vh;
+    height: 40px;
+    text-size-adjust: 10vh;
     text-align: center;
+    border-style: dashed;
+    border-color: black;
+    font-family: Sketchy;
+}
+
+#selectText{
+    border-color: aquamarine;
+    height: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
