@@ -22,6 +22,7 @@
     border: 1px solid #ddd;
     text-align: center;
     display: block;
+    background: #f0ffff;
 }
 
 .standard-color{
@@ -43,11 +44,11 @@
     font-family: Sketchy;
     border-width: 1px;
     border-radius: 50px;
+    transition: 0.3s ease;
 }
 
 .flex-item:hover{
     background-color: aquamarine;
-    border-radius: 50px;
     box-shadow:2px 2px black;
     transform: scale(1.2);
 }
@@ -78,4 +79,26 @@
     height: 1em;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#gridLayout{
+    height: 1em;
+}
+
+#gridLayout:hover{
+    box-shadow: none;
+    transform: none;
+}
+
+#sizeLabel{
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#sizeLabel:hover{
+    background-color: aquamarine;
+    box-shadow:2px 2px black;
+    transform: scale(1.2);
 }
