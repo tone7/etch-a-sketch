@@ -48,7 +48,7 @@
 }
 
 .flex-item:hover{
-    background-color: aquamarine;
+    background-color: #7fffd4;
     box-shadow:2px 2px black;
     transform: scale(1.2);
 }
